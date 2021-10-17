@@ -64,7 +64,7 @@ body {
     font-weight: 200;
     margin: 0;
     position: absolute;
-    left: 20%;
+    left: 50%;
 }
 
 .productivity_logo {
@@ -108,21 +108,28 @@ body {
 .section_three_paragraph {
     text-align: center;
     color: #3e3e3e;
-    padding: 0px 8em 90px;
+    padding: 0px 8em 25px;
     font-size: 1.2em;
 }
 
 .card_container {
-    width: 20em;
-    background-color: rgb(255, 255, 255);
+    width: 18em;
+    height: 22em;
+    background-color: blue;
     overflow: hidden;
     border-radius: 1em;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1em;
+    padding: 25px 25px 11px 15px;
+    margin: 10px 30em;
 }
 
 /* Card Template Code Come here */
+.card_content {
+    padding: 0px 20px 10px;
+    margin: 40px -6px;
+}
 
 /* Get In Touch */
 
@@ -139,7 +146,7 @@ body {
     font-size: 1.3em;
 }
 
-.getintouch {
+.four_getintouch {
     font-size: 1.2em;
     padding: 10px;
     color: white;
@@ -152,4 +159,59 @@ body {
     position: absolute;
     left: 70%;
     margin: -42px 60px;
+}
+
+.footer_logo {
+    width: 4.5em;
+    height: auto;
+    padding: 10px 40px 10px;
+    margin: 5px -25px -10px;
+}
+
+.copyright {
+    color: white;
+    padding: 10px 23px;
+    font-size: 0.5em;
+    font-weight: normal;
+    margin: -5px 10px 5px;
+}
+
+.icons {
+    font-size: 1.2em;
+    padding: 10px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border-style: none;
+    font-weight: 200;
+    margin: 0px;
+    position: absolute;
+    left: 70%;
+    margin: -80px 85px;
+    font-weight: normal;
+}
+
+.links {
+    font-size: 0.8em;
+    margin: -20px -80px;
+    outline: none;
+    cursor: pointer;
+    border-style: none;
+    font-weight: 200;
+    position: absolute;
+    left: 70%;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    color: white;
+    padding: 10px;
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+a:hover {
+    text-decoration: underline;
 }
