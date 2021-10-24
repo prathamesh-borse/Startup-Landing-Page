@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #191919;
+    background-color: #1D2026;
 }
 
 .landing_logo {
@@ -29,21 +29,22 @@ body {
 
 .heading_paragraph {
     text-align: center;
-    color: #3e3e3e;
+    color: #8A94A7;
     padding: 0px 1.2em 30px 0px;
     font-size: 1.2em;
 }
 
 .buttons {
     height: 200px;
-  position: relative;
+    position: relative;
 }
 
 .preordernow {
     font-size: 1.2em;
     padding: 10px;
     color: white;
-    background-color: black;
+    background: linear-gradient(
+        65deg, #0270D7 0, #0F8AFD 100%);
     outline: none;
     cursor: pointer;
     border-style: none;
@@ -57,7 +58,7 @@ body {
     font-size: 1.2em;
     padding: 10px;
     color: white;
-    background-color: black;
+    background-color: #242830;
     outline: none;
     cursor: pointer;
     border-style: none;
@@ -92,7 +93,7 @@ body {
 
 .heading_sectiontwo_paragraph {
     text-align: center;
-    color: white;
+    color: #8A94A7;
     padding: 0px 20px 30px 33px;
     font-size: 0.8em;
 }
@@ -107,15 +108,20 @@ body {
 
 .section_three_paragraph {
     text-align: center;
-    color: #3e3e3e;
+    color: #8A94A7;
     padding: 0px 8em 25px;
     font-size: 1.2em;
 }
 
+.lineproductive {
+    margin: 2em 5em;
+    opacity: 0.1;
+}
+
 .card_container {
     width: 18em;
-    height: 22em;
-    background-color: blue;
+    height: 20em;
+    background: #2C3039;
     overflow: hidden;
     border-radius: 1em;
     text-align: center;
@@ -127,14 +133,112 @@ body {
 
 /* Card Template Code Come here */
 .card_content {
-    padding: 0px 20px 10px;
-    margin: 40px -6px;
+    padding: 10px 10px 30px 10px;
+    margin: 45px 15px 60px 15px;
+}
+
+.Numbers {
+    color: white;
+    font-size: 50px;
+    position: relative;
+    left: -95px;
+    bottom: 55px;
+}
+
+.month {
+    color: #8A94A7;
+    font-size: 12px;
+    position: relative;
+    left: -27px;
+    bottom: 7em;
+}
+
+.linebreak {
+    position: relative;
+    bottom: 60px;
+}
+
+.linebreak2 {
+    position: relative;
+    bottom: 80px;
+}
+
+.linebreak3 {
+    position: relative;
+    bottom: 4em;
+}
+
+.linebreak4 {
+    position: relative;
+    bottom: 3em;
+}
+
+.linebreak5 {
+    position: relative;
+    bottom: 40px;
+}
+
+.linebreak6 {
+    position: relative;
+    bottom: 28px;
+}
+
+.get {
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    position: relative;
+    bottom: 70px;
+}
+
+.textcard {
+    color: #8A94A7;
+    font-size: 15px;
+    position: relative;
+    bottom: 75px;
+}
+
+.textcard3 {
+    color: #8A94A7;
+    font-size: 15px;
+    position: relative;
+    bottom: 60px;
+}
+
+.textcard4 {
+    color: #8A94A7;
+    font-size: 15px;
+    position: relative;
+    bottom: 47px;
+}
+
+.textcard5 {
+    color: #8A94A7;
+    font-size: 15px;
+    position: relative;
+    bottom: 35px;
+}
+
+.preordernow1 {
+    font-size: 1.2em;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(
+        65deg, #0270D7 0, #0F8AFD 100%);
+    outline: none;
+    cursor: pointer;
+    border-style: none;
+    font-weight: 200;
+    margin: 0;
+    position: relative;
+    left: 5%;
 }
 
 /* Get In Touch */
 
 .container {
-    background-color: #15181D;
+    background: #15181D;
     padding: 0px 0px 4em 0px;
     margin: 15px 9em;
 }
@@ -150,7 +254,7 @@ body {
     font-size: 1.2em;
     padding: 10px;
     color: white;
-    background-color: black;
+    background: linear-gradient(65deg, #0270D7 0, #0F8AFD 100%);
     outline: none;
     cursor: pointer;
     border-style: none;
@@ -169,7 +273,7 @@ body {
 }
 
 .copyright {
-    color: white;
+    color: #8A94A7;
     padding: 10px 23px;
     font-size: 0.5em;
     font-weight: normal;
@@ -179,14 +283,14 @@ body {
 .icons {
     font-size: 1.2em;
     padding: 10px;
-    color: white;
+    color: #0F8AFD;
     outline: none;
     cursor: pointer;
     border-style: none;
     font-weight: 200;
     margin: 0px;
     position: absolute;
-    left: 70%;
+    left: 80%;
     margin: -80px 85px;
     font-weight: normal;
 }
@@ -199,14 +303,13 @@ body {
     border-style: none;
     font-weight: 200;
     position: absolute;
-    left: 70%;
+    left: 80%;
     
 }
 
 a {
     text-decoration: none;
-    color: white;
-    color: white;
+    color: #8A94A7;
     padding: 10px;
     font-size: 0.8em;
     font-weight: normal;
